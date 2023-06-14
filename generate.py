@@ -3,6 +3,7 @@ import pickle
 import numpy as np
 from class_model import Model
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
