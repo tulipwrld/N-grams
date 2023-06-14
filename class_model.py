@@ -41,7 +41,7 @@ class Model(object):
                         cur_seq = key
                         break
 
-                if not (len(cur_seq)):
+                if not len(cur_seq):
                     cur_seq = list_key[np.random.choice(len(list_key))]
 
             list_seq = cur_seq.split()
